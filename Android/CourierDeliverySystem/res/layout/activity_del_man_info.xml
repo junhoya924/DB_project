@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background ="@drawable/tabinfodelman"
+    tools:context="com.example.courierdeliverysystem.DelManInfo"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/t_delman_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-130dp"
+        android:text="TextView" 
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/t_delman_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:text="TextView" 
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/t_delman_Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-70dp"
+        android:text="TextView" 
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/t_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:text="TextView" 
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/text_NonMemInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-200dp"
+        android:text="반갑습니다 배달원님 오늘 하루도 안전운행 하세요 "
+        android:textSize="15sp" 
+        android:textColor="#0050ff"/>
+
+</FrameLayout>
+

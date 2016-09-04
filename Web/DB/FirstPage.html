@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="kr">
+ <head>
+  <meta charset="UTF-8">
+
+  <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #fa0;
+      }
+	   .form-group {
+        max-width: 500px;
+		min-width: 400px;
+		min-height: 300px;
+        padding: 10px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 10px;
+           -moz-border-radius: 10px;
+                border-radius: 10px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-group input[type="text"],
+      .form-group input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+
+ 
+    </style>
+  <title>Admin</title>
+ </head>
+ <body>
+ <div class="container">
+ <form role="form" method="post">
+  <div class="form-group">
+	<center><h2>Courier delivery system DB</h2></center>
+	<br/>
+    <center><label for="InputStudentID">ID</label></center>
+    <center><input type="text" class="form-control" name="InputAdminID" style="width:400px;" placeholder="ID"></center>
+    <center><label for="exampleInputPassword1">Password</label></center>
+    <center><input type="password" class="form-control" name="InputAdminPassword" style="width:400px;" placeholder="Password"></center>
+	<br/>
+    <center><button class="btn btn-default" formaction="./LoginPage.php">login</button>
+	<button class="btn btn-default" formaction="./Register.html">register</button></center>
+	</div>
+  </form>
+ </div>
+ </body>
+</html>
+

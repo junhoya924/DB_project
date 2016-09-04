@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tabdelever"
+    tools:context="com.example.courierdeliverysystem.DeleveryInfo"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/t_delman_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-215dp"
+        android:text="고객님의 현재까지의 배달 목록입니다"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/DeleveryItems"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="140dp"
+            android:background="#00000000" >
+
+        </ListView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-170dp"
+        android:background="#20000000"
+        android:text="배달 정보"    
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</FrameLayout>
+
+

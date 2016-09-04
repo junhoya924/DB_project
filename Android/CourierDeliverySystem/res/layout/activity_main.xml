@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="@drawable/backgroundmain"
+    tools:context="com.example.courierdeliverysystem.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/Lon_in"
+        android:layout_width="91dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Log-in"
+        android:textColor="#000000"
+        android:textSize="10sp" />
+
+    <RadioGroup
+        android:id="@+id/ClientGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <RadioButton
+        android:id="@+id/radio_Client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-74dp"
+        android:layout_marginTop="150dp"
+        android:text="Client"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <RadioButton
+        android:id="@+id/radio_Delevery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-56dp"
+        android:text="Delivery Man"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-58dp"
+        android:layout_marginTop="180dp"
+        android:text="Non-Client"
+        android:textSize="15sp" />
+    
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/StateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="-70dp"
+        android:text="ID :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/TextMenu_PW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="-25dp"
+        android:text="PW :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="-70dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit_PW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="-25dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+</FrameLayout>
+

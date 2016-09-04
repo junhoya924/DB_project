@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Off Canvas</title>
+    <style>
+      .container {
+        width: 500px;
+        margin: auto;
+      }
+      .content {
+        width: 500px;
+        height: 20px;
+        background-color: #27a9e3;
+        float: left;
+      }
+      .sidebar {
+        width: 100px;
+        height: 20px;
+        background-color: #e76e66;
+        float: right;
+        display: none;
+      }
+      .os {
+        margin-left: -100px;
+      }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+      $( document ).ready( function() {
+        $( 'button' ).click( function() {
+          $( '.content' ).toggleClass( 'os' );
+          $( '.sidebar' ).toggle();
+        } );
+      } );
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <p><button>Click</button></p>
+      <div class="content">
+      </div>
+      <div class="sidebar">
+      </div>
+    </div>
+  </body>
+</html>

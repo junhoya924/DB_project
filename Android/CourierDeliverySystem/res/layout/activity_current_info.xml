@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="@drawable/tabcurrent"
+    tools:context="com.example.courierdeliverysystem.CurrentInfo"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        android:id="@+id/CurrentStateImage"
+        android:layout_width="233dp"
+        android:layout_height="233dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/abc_ab_bottom_transparent_dark_holo" />
+
+    <TextView
+        android:id="@+id/StateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:text="Current State"
+        android:textSize="15sp" />
+
+</FrameLayout>
+

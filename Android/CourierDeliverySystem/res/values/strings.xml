@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Courier delivery system</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_personal_info">PersonalInfo</string>
+    <string name="title_activity_delevery_info">DeleveryInfo</string>
+    <string name="title_activity_current_info">CurrentInfo</string>
+    <string name="str_done">완료</string>
+    <string name="title_activity_del_man_info">DelManInfo</string>
+    <string name="title_activity_del_product_info">DelProductInfo</string>
+    <string name="title_activity_non_member_page">NonMemberPage</string>
+
+</resources>
